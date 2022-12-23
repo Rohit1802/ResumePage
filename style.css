@@ -1,0 +1,77 @@
+/* Write CSS Here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+.image{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rkimg{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+}
+
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+    background-color: rgb(113, 198, 237); 
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+
+.left {
+	position: initial;
+	padding: 20px;
+    margin: 0px 20px;
+}
+
+.right {
+	position: initial;
+	background-color: rgb(215, 240, 243);
+	padding: 20px;
+}
+
+.Experience{
+	margin-bottom: 16px;
+}
+
+.container{
+    margin-top: 16px;
+}
+
+.container ul , .Language ul, .Hobbies ul , .projects ul{
+	list-style-type: none;
+}
+
+.organization .org{
+    margin-bottom: 10px;
+}
+
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-weight: 16px;
+}
+
+table{
+	padding: 2px 4px;
+}
