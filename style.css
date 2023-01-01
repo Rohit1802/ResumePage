@@ -14,7 +14,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 .image{
-    display: flex;
+        display: flex;
 	justify-content: center;
 	align-items: center;
 }
